@@ -121,24 +121,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 </pre>
 ##XML动画配置：
 alpha.xml
-    <?xml version="1.0" encoding="utf-8"?>
+   <code><?xml version="1.0" encoding="utf-8"?>
         <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
         android:propertyName="alpha"
         android:valueFrom="1"
         android:valueTo="0"
         android:valueType="floatType" />
-
+    </code>
 transition.xml
 <pre>
-    <?xml version="1.0" encoding="utf-8"?>
+    <code><?xml version="1.0" encoding="utf-8"?>
     <animator xmlns:android="http://schemas.android.com/apk/res/android"
         android:valueFrom="0"
         android:valueTo="100"
-        android:valueType="intType" />
+        android:valueType="intType" /></code>
 </pre>
 组合动画set.xml
 <pre>
-    <?xml version="1.0" encoding="utf-8"?>
+   <code><?xml version="1.0" encoding="utf-8"?>
     <set xmlns:android="http://schemas.android.com/apk/res/android"
         android:ordering="sequentially">
     <objectAnimator
@@ -169,5 +169,5 @@ transition.xml
                 android:valueType="floatType" />
         </set>
     </set>
-</set>
+</set></code>
 </pre>
