@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 }
 
 </pre>
-==XML动画配置：
+##XML动画配置：
 alpha.xml
 <pre>
 <?xml version="1.0" encoding="utf-8"?>
