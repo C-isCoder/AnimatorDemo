@@ -1,7 +1,10 @@
 # AnimatorDemoOne
+
 郭神-Android属性动画完全解析(上)，初识属性动画的基本用法
-##核心类：
-<pre>
+
+# 核心类：
+
+```java
 package com.example.iscoder.animatordemoone;
 
 import android.animation.Animator;
@@ -169,5 +172,5 @@ transition.xml
                 android:valueType="floatType" />
         </set>
     </set>
-</set></code>
-</pre>
+</set>
+```
